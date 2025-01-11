@@ -1,6 +1,7 @@
 *{
     margin: 1px;
     padding: 0px;
+    left: 150px;
 }
 
 .navbar{
@@ -52,9 +53,9 @@
 } 
 
 main{
-    width: 80%;
+    width: 65%;
     background-color: rgb(251, 248, 248);
-    margin: 0px auto;
+    margin: 100px auto;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
@@ -62,6 +63,12 @@ main{
 /* .pillars-text{
     text-align;
 } */
+ .pillars-text{
+    text-align: left;
+ }
+ .text-current-target{
+    text-align: left;
+ }
 .box1{
     display: flex;
     width: 70%;
@@ -188,46 +195,99 @@ main{
     background-color:#F7EBCF;
     border-radius: 5px;
  }
- 
-
-
+ .muhammad-yunus{
+    width: 100%; /* Table container width */
+    /* margin: 40px auto; Center align and add top margin */
+    background-color: #fff; /* White background for the table */
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
+ }
 
 
  .table-container {
-    width: 50%;
-    margin: 0 auto;
-    background-color: white;
+    width: 100%; /* Table container width */
+    margin: 40px auto; /* Center align and add top margin */
+    background-color: #fff; /* White background for the table */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Style the table */
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Remove space between cells */
 }
-th {
-        background-color: #4CAF50; /* Green background for the header */
-        color: white; /* White text color */
-        padding: 10px;
-    }
 
 th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 12px; /* Space around text */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Style for table header */
+th {
+    background-color:#C6E4D6; 
+    color: black 
+    font-size: 18px;
+}
+
+/* Style for table rows */
+td {
+    background-color: #f9f9f9; /* Light gray background for rows */
+    font-size: 16px; /* Text size */
+}
+
+/* Style the dropdown (select) */
+select {
+    width: 200px; /* Set width for dropdown */
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    background-color: #C6E4D6; /* White background */
+    cursor: pointer;
+}
+
+/* Hover effect for the select element */
+select:hover {
+    border-color: #4CAF50; /* Green border on hover */
+}
+
+
+.box1{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgb(243, 240, 240);
+    text-align: left;
+
+}
+.box2{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgb(243, 240, 240);
     text-align: left;
 }
-
-button {
-    padding: 8px 20px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #45a049;
+.box3{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+    margin-top: 50px;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgb(243, 240, 240);
+    text-align: left;
 }
