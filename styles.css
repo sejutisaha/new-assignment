@@ -357,3 +357,106 @@ input[type="text"]::placeholder {
     width: 10%;
     font-size: large;
 }
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f4f4f4;
+  }
+  
+  /* Style for the form */
+  .styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input field styling */
+  .input-field {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+
+
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .form{
+    background-color: #C6E4D6;
+  }
+
+To create a footer section with a centered <h2> and three photos placed next to each other, you can use Flexbox to align everything in the center.
+
+Here’s how you can structure it:
+
+HTML:
+html
+Copy code
+<footer class="footer-section">
+  <h2 class="footer-heading">Your Footer Heading</h2>
+  <div class="footer-images">
+    <img src="image1.jpg" alt="Image 1" class="footer-image">
+    <img src="image2.jpg" alt="Image 2" class="footer-image">
+    <img src="image3.jpg" alt="Image 3" class="footer-image">
+  </div>
+</footer>
+CSS:
+css
+Copy code
+/* Style for the footer */
+.footer-section {
+  background-color: #;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Center the heading */
+.footer-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Flexbox container for the images */
+.footer-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;  /* Space between images */
+}
+
+/* Styling for the images */
+.footer-image {
+  width: 100px;  /* Adjust size of the images as needed */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.footer-heading{
+    text-align: center;
+}
