@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: rgb(251, 248, 248);
+    background-color: #F1F1F3;
 }
 .logo{
     font-weight: bold;
@@ -54,7 +54,7 @@
 
 main{
     width: 65%;
-    background-color: rgb(251, 248, 248);
+    background-color: #F1F1F3;
     margin: 100px auto;
     text-align: center;
     padding: 20px;
@@ -132,8 +132,8 @@ main{
  .html-box{
     margin-top: 10px;
     text-align: justify;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 210px;
     /* border: 1px solid gray; */
     padding: 20px;
     background-color: white;
@@ -142,8 +142,8 @@ main{
  .css-box{
     margin-top: 10px;
     text-align: justify;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 210px;
     /* border: 1px solid gray; */
     padding: 20px;
     background-color: white;
@@ -153,8 +153,8 @@ main{
  .js-box{
     margin-top: 10px;
     text-align: justify;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 210px;
     /* border: 1px solid gray; */
     padding: 20px;
     background-color: white;
@@ -259,19 +259,21 @@ select:hover {
 
 .box1{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
     margin: 0 auto;
     /* border: 1px solid gray; */
     margin-top: 50px;
     align-items: center;
-    box-shadow: 4px 4px 8px rgb(243, 240, 240);
+    /* box-shadow: 4px 4px 8px rgb(243, 240, 240); */
     text-align: left;
+    border-radius: 10px;
+    background-color: white;
 
 }
 .box2{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: flex-start;
     margin: 0 auto;
     /* border: 1px solid gray; */
@@ -279,10 +281,12 @@ select:hover {
     align-items: center;
     box-shadow: 4px 4px 8px rgb(243, 240, 240);
     text-align: left;
+    border-radius: 10px;
+    background-color: white;
 }
 .box3{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
     margin: 0 auto;
     /* border: 1px solid gray; */
@@ -290,4 +294,66 @@ select:hover {
     align-items: center;
     box-shadow: 4px 4px 8px rgb(243, 240, 240);
     text-align: left;
+    border-radius: 10px;
+    background-color: white;
+}
+.box-button{
+    background-color: #006A50;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex; /* Use flexbox to arrange cards in a row */
+    justify-content: space-evenly; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+   
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 40px;
+    /* width: 22%;  */
+    height: 128px;
+    width: 264px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text in the card */
+    border-radius: 10px;
+    text-align: center;
+
+}
+.card2{
+    background-color: #C6E4D6;
+}
+.input-container {
+    width: 100%;
+    /* max-width: 500px;  Limit max width to 500px, you can adjust as needed */
+    margin: 0 auto;    /* Center the input on the page */
+}
+input[type="text"] {
+    width: 94%;      /* Make the input take the full width of its container */
+    padding: 10px;    /* Add padding for better visual appearance */
+    font-size: 16px;  /* Font size */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+input[type="text"]::placeholder {
+    color: #888; /* Light gray color for the placeholder */
+    text-align: center;
+
+}
+.done-now{
+    background-color: #006A50;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    font-size: large;
 }
